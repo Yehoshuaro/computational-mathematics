@@ -47,3 +47,6 @@ def iteration_method(x0, tol=0.001, iter=20):
 x0 = 1
 root = iteration_method(x0)
 print(root)
+
+
+# just checking
