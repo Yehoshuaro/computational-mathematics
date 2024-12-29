@@ -1,89 +1,62 @@
-def cramer_method(matrix, results):
-    def determinant(mat):
-        if len(mat) == 2:
-            return mat[0][0] * mat[1][1] - mat[0][1] * mat[1][0]
-        det = 0
-        for i in range(len(mat)):
-            sub_mat = [row[:i] + row[i + 1:] for row in mat[1:]]
-            det += ((-1) ** i) * mat[0][i] * determinant(sub_mat)
-        return det
+import numpy as np
 
-    det_main = determinant(matrix)
+matrix = np.array([[3, -5, 47, 20],
+                   [11, 16, 17, 10],
+                   [56, 22, 11, -18],
+                   [17, 66, -12, 7]], dtype=float)
+
+vector = np.array([18, 26, 34, 82], dtype=float)
+
+def cramer_method(matrix, vector):
+    determinant_main = np.linalg.det(matrix)
+    if determinant_main == 0:
+        return "No solution"
+
     solutions = []
-    for i in range(len(matrix)):
-        temp_mat = [row[:] for row in matrix]
-        for j in range(len(matrix)):
-            temp_mat[j][i] = results[j]
-        solutions.append(determinant(temp_mat) / det_main)
+    for column_index in range(len(matrix)):
+        temp_matrix = matrix.copy()
+        temp_matrix[:, column_index] = vector
+        solutions.append(np.linalg.det(temp_matrix) / determinant_main)
     return solutions
 
+def gaussian_method(matrix, vector):
+    num_rows = len(matrix)
+    for pivot_row in range(num_rows):
+        max_row = np.argmax(abs(matrix[pivot_row:, pivot_row])) + pivot_row
+        matrix[[pivot_row, max_row]] = matrix[[max_row, pivot_row]]
+        vector[pivot_row], vector[max_row] = vector[max_row], vector[pivot_row]
 
+        for target_row in range(pivot_row + 1, num_rows):
+            factor = matrix[target_row][pivot_row] / matrix[pivot_row][pivot_row]
+            matrix[target_row, pivot_row:] -= factor * matrix[pivot_row, pivot_row:]
+            vector[target_row] -= factor * vector[pivot_row]
 
-def gauss_method(matrix, results):
-    n = len(matrix)
-    for i in range(n):
-        divisor = matrix[i][i]
-        for j in range(i, n):
-            matrix[i][j] /= divisor
-        results[i] /= divisor
+    solutions = np.zeros(num_rows)
+    for row in range(num_rows - 1, -1, -1):
+        solutions[row] = (vector[row] - np.dot(matrix[row, row + 1:], solutions[row + 1:])) / matrix[row, row]
+    return solutions
 
-        for k in range(i + 1, n):
-            factor = matrix[k][i]
-            for j in range(i, n):
-                matrix[k][j] -= factor * matrix[i][j]
-            results[k] -= factor * results[i]
-
-    solution = [0] * n
-    for i in range(n - 1, -1, -1):
-        solution[i] = results[i]
-        for j in range(i + 1, n):
-            solution[i] -= matrix[i][j] * solution[j]
-    return solution
-
-
-
-def jacobi_method(matrix, results, max_iterations=100, tol=1e-6):
-    n = len(matrix)
-    x = [0] * n
+def jacobi_method(matrix, vector, max_iterations=25):
+    num_rows = len(matrix)
+    solutions = np.zeros(num_rows)
     for _ in range(max_iterations):
-        new_x = x[:]
-        for i in range(n):
-            sum_ax = sum(matrix[i][j] * x[j] for j in range(n) if j != i)
-            new_x[i] = (results[i] - sum_ax) / matrix[i][i]
-        if all(abs(new_x[i] - x[i]) < tol for i in range(n)):
-            break
-        x = new_x
-    return x
+        new_solutions = np.copy(solutions)
+        for row in range(num_rows):
+            sum_terms = sum(matrix[row, col] * solutions[col] for col in range(num_rows) if col != row)
+            new_solutions[row] = (vector[row] - sum_terms) / matrix[row, row]
+        solutions = new_solutions
+    return solutions
 
-
-
-def gauss_seidel_method(matrix, results, max_iterations=100, tol=1e-6):
-    n = len(matrix)
-    x = [0] * n
+def gauss_seidel_method(matrix, vector, max_iterations=25):
+    num_rows = len(matrix)
+    solutions = np.zeros(num_rows)
     for _ in range(max_iterations):
-        new_x = x[:]
-        for i in range(n):
-            sum_ax = sum(matrix[i][j] * new_x[j] for j in range(n) if j != i)
-            new_x[i] = (results[i] - sum_ax) / matrix[i][i]
-        if all(abs(new_x[i] - x[i]) < tol for i in range(n)):
-            break
-        x = new_x
-    return x
+        for row in range(num_rows):
+            sum_terms = sum(matrix[row, col] * solutions[col] for col in range(num_rows) if col != row)
+            solutions[row] = (vector[row] - sum_terms) / matrix[row, row]
+    return solutions
 
-matrix = [
-    [3, -5, 47, 20],
-    [11, 16, 17, 10],
-    [56, 22, 11, -18],
-    [17, 66, -12, 7]
-]
-results = [18, 26, 34, 82]
-
-solution_cramer = cramer_method([row[:] for row in matrix], results[:])
-solution_gauss = gauss_method([row[:] for row in matrix], results[:])
-solution_jacobi = jacobi_method([row[:] for row in matrix], results[:])
-solution_gauss_seidel = gauss_seidel_method([row[:] for row in matrix], results[:])
-
-print("Cramer:", solution_cramer)
-print("Gauss:", solution_gauss)
-print("Jacobi:", solution_jacobi)
-print("Gauss-Seidel:", solution_gauss_seidel)
+print("Cramer's Method Solution:", cramer_method(matrix.copy(), vector.copy()))
+print("Gaussian Method Solution:", gaussian_method(matrix.copy(), vector.copy()))
+print("Jacobi Method Solution:", jacobi_method(matrix.copy(), vector.copy()))
+print("Gauss-Seidel Method Solution:", gauss_seidel_method(matrix.copy(), vector.copy()))
