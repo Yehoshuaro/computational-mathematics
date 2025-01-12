@@ -1,0 +1,23 @@
+Index: main.py
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>import numpy as np\r\n\r\nmatrix = np.array([[3, -5, 47, 20],\r\n                   [11, 16, 17, 10],\r\n                   [56, 22, 11, -18],\r\n                   [17, 66, -12, 7]], dtype=float)\r\n\r\nvector = np.array([18, 26, 34, 82], dtype=float)\r\n\r\ndef cramer_method(matrix, vector):\r\n    determinant_main = np.linalg.det(matrix)\r\n    if determinant_main == 0:\r\n        return \"No solution\"\r\n\r\n    solutions = []\r\n    for column_index in range(len(matrix)):\r\n        temp_matrix = matrix.copy()\r\n        temp_matrix[:, column_index] = vector\r\n        solutions.append(np.linalg.det(temp_matrix) / determinant_main)\r\n    return solutions\r\n\r\ndef gaussian_method(matrix, vector):\r\n    num_rows = len(matrix)\r\n    for pivot_row in range(num_rows):\r\n        max_row = np.argmax(abs(matrix[pivot_row:, pivot_row])) + pivot_row\r\n        matrix[[pivot_row, max_row]] = matrix[[max_row, pivot_row]]\r\n        vector[pivot_row], vector[max_row] = vector[max_row], vector[pivot_row]\r\n\r\n        for target_row in range(pivot_row + 1, num_rows):\r\n            factor = matrix[target_row][pivot_row] / matrix[pivot_row][pivot_row]\r\n            matrix[target_row, pivot_row:] -= factor * matrix[pivot_row, pivot_row:]\r\n            vector[target_row] -= factor * vector[pivot_row]\r\n\r\n    solutions = np.zeros(num_rows)\r\n    for row in range(num_rows - 1, -1, -1):\r\n        solutions[row] = (vector[row] - np.dot(matrix[row, row + 1:], solutions[row + 1:])) / matrix[row, row]\r\n    return solutions\r\n\r\ndef jacobi_method(matrix, vector, max_iterations=25):\r\n    num_rows = len(matrix)\r\n    solutions = np.zeros(num_rows)\r\n    for _ in range(max_iterations):\r\n        new_solutions = np.copy(solutions)\r\n        for row in range(num_rows):\r\n            sum_terms = sum(matrix[row, col] * solutions[col] for col in range(num_rows) if col != row)\r\n            new_solutions[row] = (vector[row] - sum_terms) / matrix[row, row]\r\n        solutions = new_solutions\r\n    return solutions\r\n\r\ndef gauss_seidel_method(matrix, vector, max_iterations=25):\r\n    num_rows = len(matrix)\r\n    solutions = np.zeros(num_rows)\r\n    for _ in range(max_iterations):\r\n        for row in range(num_rows):\r\n            sum_terms = sum(matrix[row, col] * solutions[col] for col in range(num_rows) if col != row)\r\n            solutions[row] = (vector[row] - sum_terms) / matrix[row, row]\r\n    return solutions\r\n\r\nprint(\"Cramer's Method Solution:\", cramer_method(matrix.copy(), vector.copy()))\r\nprint(\"Gaussian Method Solution:\", gaussian_method(matrix.copy(), vector.copy()))\r\nprint(\"Jacobi Method Solution:\", jacobi_method(matrix.copy(), vector.copy()))\r\nprint(\"Gauss-Seidel Method Solution:\", gauss_seidel_method(matrix.copy(), vector.copy()))
+===================================================================
+diff --git a/main.py b/main.py
+--- a/main.py	
++++ b/main.py	
+@@ -19,13 +19,13 @@
+         solutions.append(np.linalg.det(temp_matrix) / determinant_main)
+     return solutions
+ 
++
+ def gaussian_method(matrix, vector):
+     num_rows = len(matrix)
+     for pivot_row in range(num_rows):
+         max_row = np.argmax(abs(matrix[pivot_row:, pivot_row])) + pivot_row
+         matrix[[pivot_row, max_row]] = matrix[[max_row, pivot_row]]
+         vector[pivot_row], vector[max_row] = vector[max_row], vector[pivot_row]
+-
+         for target_row in range(pivot_row + 1, num_rows):
+             factor = matrix[target_row][pivot_row] / matrix[pivot_row][pivot_row]
+             matrix[target_row, pivot_row:] -= factor * matrix[pivot_row, pivot_row:]
