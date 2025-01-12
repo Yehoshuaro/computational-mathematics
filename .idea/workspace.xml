@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b78772d5-9ea5-4f78-843c-e2a83a7dc89b" name="Changes" comment="Find the largest eigenvalue and the corresponding eigenvector of the matrix using the power method">
-      <change afterPath="$PROJECT_DIR$/Jacobi_method.py" afterDir="false" />
+    <list default="true" id="b78772d5-9ea5-4f78-843c-e2a83a7dc89b" name="Changes" comment="using Jacobi’s method, find all the eigenvalues and the eigenvectors of the matrix">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Jacobi_method.py" beforeDir="false" afterPath="$PROJECT_DIR$/Jacobi_method.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,24 +28,27 @@
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 4
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 4
+}</component>
   <component name="ProjectId" id="2r1NVeRUPTHWf0Cb8uVIlBL0K2r" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Python.lu_factorization_method.executor": "Run",
-    "Python.main.executor": "Run",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "third__assignment"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Python.Jacobi_method.executor&quot;: &quot;Run&quot;,
+    &quot;Python.iterative_method.executor&quot;: &quot;Run&quot;,
+    &quot;Python.lu_factorization_method.executor&quot;: &quot;Run&quot;,
+    &quot;Python.main.executor&quot;: &quot;Run&quot;,
+    &quot;Python.power_method.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;third__assignment&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager">
     <configuration name="lu_factorization_method" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="computational_mathematics" />
@@ -109,13 +113,22 @@
       <option name="project" value="LOCAL" />
       <updated>1735724525736</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="using Jacobi’s method, find all the eigenvalues and the eigenvectors of the matrix">
+      <option name="closed" value="true" />
+      <created>1735724928576</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1735724928576</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="using the LU factorization method, find the inverse of the matrix A" />
     <MESSAGE value="apply iterative method to find more accurate inverse of A, assuming the initial approximate inverse matrix B" />
     <MESSAGE value="Find the largest eigenvalue and the corresponding eigenvector of the matrix using the power method" />
-    <option name="LAST_COMMIT_MESSAGE" value="Find the largest eigenvalue and the corresponding eigenvector of the matrix using the power method" />
+    <MESSAGE value="using Jacobi’s method, find all the eigenvalues and the eigenvectors of the matrix" />
+    <option name="LAST_COMMIT_MESSAGE" value="using Jacobi’s method, find all the eigenvalues and the eigenvectors of the matrix" />
   </component>
 </project>

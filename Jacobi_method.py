@@ -10,6 +10,7 @@ for _ in range(100):
     i, j = np.unravel_index(np.argmax(np.abs(np.triu(matrix, 1))), matrix.shape)
     if matrix[i, j] == 0:
         break
+
     rotation_angle = 0.5 * np.arctan2(2 * matrix[i, j], matrix[j, j] - matrix[i, i])
     cosine = np.cos(rotation_angle)
     sine = np.sin(rotation_angle)
