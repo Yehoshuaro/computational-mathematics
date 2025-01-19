@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b78772d5-9ea5-4f78-843c-e2a83a7dc89b" name="Changes" comment="using Jacobi’s method, find all the eigenvalues and the eigenvectors of the matrix">
+    <list default="true" id="b78772d5-9ea5-4f78-843c-e2a83a7dc89b" name="Changes" comment="3rd assignment package">
+      <change afterPath="$PROJECT_DIR$/fourth_assignment/Newton's Forward Interpolation.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Jacobi_method.py" beforeDir="false" afterPath="$PROJECT_DIR$/Jacobi_method.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,7 +23,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="master" />
+        <entry key="$PROJECT_DIR$" value="third_assignment" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -37,18 +37,25 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Python.Jacobi_method.executor&quot;: &quot;Run&quot;,
-    &quot;Python.iterative_method.executor&quot;: &quot;Run&quot;,
-    &quot;Python.lu_factorization_method.executor&quot;: &quot;Run&quot;,
-    &quot;Python.main.executor&quot;: &quot;Run&quot;,
-    &quot;Python.power_method.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;third__assignment&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Python.Jacobi_method.executor": "Run",
+    "Python.Newton's Forward Interpolation.executor": "Run",
+    "Python.g.executor": "Run",
+    "Python.iterative_method.executor": "Run",
+    "Python.lu_factorization_method.executor": "Run",
+    "Python.main.executor": "Run",
+    "Python.power_method.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "third__to__sixth__assignment"
   }
-}</component>
+}]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Asus\PycharmProjects\computational_mathematics\third_assignment" />
+    </key>
+  </component>
   <component name="RunManager">
     <configuration name="lu_factorization_method" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="computational_mathematics" />
@@ -63,7 +70,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="C:\Users\Asus\PycharmProjects\computational_mathematics\lu_factorization_method.py" />
+      <option name="SCRIPT_NAME" value="C:\Users\Asus\PycharmProjects\computational_mathematics\third_assignment\lu_factorization_method.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -121,7 +128,15 @@
       <option name="project" value="LOCAL" />
       <updated>1735724928576</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="3rd assignment package">
+      <option name="closed" value="true" />
+      <created>1737297451250</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1737297451250</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -129,6 +144,7 @@
     <MESSAGE value="apply iterative method to find more accurate inverse of A, assuming the initial approximate inverse matrix B" />
     <MESSAGE value="Find the largest eigenvalue and the corresponding eigenvector of the matrix using the power method" />
     <MESSAGE value="using Jacobi’s method, find all the eigenvalues and the eigenvectors of the matrix" />
-    <option name="LAST_COMMIT_MESSAGE" value="using Jacobi’s method, find all the eigenvalues and the eigenvectors of the matrix" />
+    <MESSAGE value="3rd assignment package" />
+    <option name="LAST_COMMIT_MESSAGE" value="3rd assignment package" />
   </component>
 </project>
