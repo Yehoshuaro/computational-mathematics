@@ -4,8 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b78772d5-9ea5-4f78-843c-e2a83a7dc89b" name="Changes" comment="Lagrange's Interpolation.py">
-      <change afterPath="$PROJECT_DIR$/fourth_assignment/Newton's Divided Difference Method.py" afterDir="false" />
+    <list default="true" id="b78772d5-9ea5-4f78-843c-e2a83a7dc89b" name="Changes" comment="Newton's Divided Difference.py">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fourth_assignment/Lagrange's Interpolation.py" beforeDir="false" afterPath="$PROJECT_DIR$/fourth_assignment/Lagrange's Interpolation.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fourth_assignment/Newton's Divided Difference.py" beforeDir="false" afterPath="$PROJECT_DIR$/fourth_assignment/Newton's Divided Difference.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,22 +41,23 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Python.Jacobi_method.executor": "Run",
-    "Python.Lagrange's Interpolation.executor": "Run",
-    "Python.Newton's Divided Difference Method.executor": "Run",
-    "Python.Newton's Forward Interpolation.executor": "Run",
-    "Python.g.executor": "Run",
-    "Python.iterative_method.executor": "Run",
-    "Python.lu_factorization_method.executor": "Run",
-    "Python.main.executor": "Run",
-    "Python.power_method.executor": "Run",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "third__to__sixth__assignment"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Python.Jacobi_method.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Lagrange's Interpolation.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Newton's Divided Difference Method.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Newton's Divided Difference.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Newton's Forward Interpolation.executor&quot;: &quot;Run&quot;,
+    &quot;Python.g.executor&quot;: &quot;Run&quot;,
+    &quot;Python.iterative_method.executor&quot;: &quot;Run&quot;,
+    &quot;Python.lu_factorization_method.executor&quot;: &quot;Run&quot;,
+    &quot;Python.main.executor&quot;: &quot;Run&quot;,
+    &quot;Python.power_method.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;third__to__sixth__assignment&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Asus\PycharmProjects\computational_mathematics\third_assignment" />
@@ -156,7 +159,15 @@
       <option name="project" value="LOCAL" />
       <updated>1737299610062</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Newton's Divided Difference.py">
+      <option name="closed" value="true" />
+      <created>1737300044390</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1737300044390</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -167,6 +178,7 @@
     <MESSAGE value="3rd assignment package" />
     <MESSAGE value="Newton's Forward Interpolation.py" />
     <MESSAGE value="Lagrange's Interpolation.py" />
-    <option name="LAST_COMMIT_MESSAGE" value="Lagrange's Interpolation.py" />
+    <MESSAGE value="Newton's Divided Difference.py" />
+    <option name="LAST_COMMIT_MESSAGE" value="Newton's Divided Difference.py" />
   </component>
 </project>
