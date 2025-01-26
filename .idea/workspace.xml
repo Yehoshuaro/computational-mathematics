@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b78772d5-9ea5-4f78-843c-e2a83a7dc89b" name="Changes" comment="trapezoidal rule / 5th assignment">
-      <change afterPath="$PROJECT_DIR$/fifth_assignment/Boole's rule.py" afterDir="false" />
+    <list default="true" id="b78772d5-9ea5-4f78-843c-e2a83a7dc89b" name="Changes" comment="Boole's rule / 5th assignment">
+      <change afterPath="$PROJECT_DIR$/fifth_assignment/Simpson's rule.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -40,26 +40,27 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Python.Boole's rule.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Jacobi_method.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Lagrange's Interpolation.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Newton's Divided Difference Method.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Newton's Divided Difference.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Newton's Forward Interpolation.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Trapezoidal_rule.executor&quot;: &quot;Run&quot;,
-    &quot;Python.g.executor&quot;: &quot;Run&quot;,
-    &quot;Python.iterative_method.executor&quot;: &quot;Run&quot;,
-    &quot;Python.lu_factorization_method.executor&quot;: &quot;Run&quot;,
-    &quot;Python.main.executor&quot;: &quot;Run&quot;,
-    &quot;Python.power_method.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;third__to__sixth__assignment&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.editor&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Python.Boole's rule.executor": "Run",
+    "Python.Jacobi_method.executor": "Run",
+    "Python.Lagrange's Interpolation.executor": "Run",
+    "Python.Newton's Divided Difference Method.executor": "Run",
+    "Python.Newton's Divided Difference.executor": "Run",
+    "Python.Newton's Forward Interpolation.executor": "Run",
+    "Python.Simpson's rule.executor": "Run",
+    "Python.Trapezoidal_rule.executor": "Run",
+    "Python.g.executor": "Run",
+    "Python.iterative_method.executor": "Run",
+    "Python.lu_factorization_method.executor": "Run",
+    "Python.main.executor": "Run",
+    "Python.power_method.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "third__to__sixth__assignment",
+    "settings.editor.selected.configurable": "preferences.editor"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Asus\PycharmProjects\computational_mathematics\third_assignment" />
@@ -177,7 +178,15 @@
       <option name="project" value="LOCAL" />
       <updated>1737833532198</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Boole's rule / 5th assignment">
+      <option name="closed" value="true" />
+      <created>1737900839254</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1737900839254</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -190,6 +199,7 @@
     <MESSAGE value="Lagrange's Interpolation.py" />
     <MESSAGE value="Newton's Divided Difference.py" />
     <MESSAGE value="trapezoidal rule / 5th assignment" />
-    <option name="LAST_COMMIT_MESSAGE" value="trapezoidal rule / 5th assignment" />
+    <MESSAGE value="Boole's rule / 5th assignment" />
+    <option name="LAST_COMMIT_MESSAGE" value="Boole's rule / 5th assignment" />
   </component>
 </project>
