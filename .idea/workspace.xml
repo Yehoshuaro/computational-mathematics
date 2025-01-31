@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b78772d5-9ea5-4f78-843c-e2a83a7dc89b" name="Changes" comment="Simpson's rule / 5th assignment">
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_19_01_2025_20_01_[Changes]/shelved.patch" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_19_01_2025_20_01__Changes_.xml" beforeDir="false" />
+    <list default="true" id="b78772d5-9ea5-4f78-843c-e2a83a7dc89b" name="Changes" comment="Weddle's rule / 5th assignment">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -51,6 +49,7 @@
     &quot;Python.Newton's Forward Interpolation.executor&quot;: &quot;Run&quot;,
     &quot;Python.Simpson's rule.executor&quot;: &quot;Run&quot;,
     &quot;Python.Trapezoidal_rule.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Weddle's rule.executor&quot;: &quot;Run&quot;,
     &quot;Python.g.executor&quot;: &quot;Run&quot;,
     &quot;Python.iterative_method.executor&quot;: &quot;Run&quot;,
     &quot;Python.lu_factorization_method.executor&quot;: &quot;Run&quot;,
@@ -195,7 +194,15 @@
       <option name="project" value="LOCAL" />
       <updated>1737902402580</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Weddle's rule / 5th assignment">
+      <option name="closed" value="true" />
+      <created>1737915211400</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1737915211400</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -210,6 +217,7 @@
     <MESSAGE value="trapezoidal rule / 5th assignment" />
     <MESSAGE value="Boole's rule / 5th assignment" />
     <MESSAGE value="Simpson's rule / 5th assignment" />
-    <option name="LAST_COMMIT_MESSAGE" value="Simpson's rule / 5th assignment" />
+    <MESSAGE value="Weddle's rule / 5th assignment" />
+    <option name="LAST_COMMIT_MESSAGE" value="Weddle's rule / 5th assignment" />
   </component>
 </project>
