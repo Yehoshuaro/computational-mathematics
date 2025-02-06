@@ -3,8 +3,8 @@ def booles_rule_integral(a, b, f):
     h = (b - a) / 5
 
     x0 = a
-    x1 = a + h
-    x2 = a + 2 * h
+    x1 = a + h #pi /8
+    x2 = a + 2 * h # 3pi / 8
     x3 = a + 3 * h
     x4 = b
 
