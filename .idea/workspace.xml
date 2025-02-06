@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b78772d5-9ea5-4f78-843c-e2a83a7dc89b" name="Changes" comment="Modified Euler's method">
-      <change afterPath="$PROJECT_DIR$/sixth_assignment/The third order Runge-Kutta.py" afterDir="false" />
+    <list default="true" id="b78772d5-9ea5-4f78-843c-e2a83a7dc89b" name="Changes" comment="The fourth order Runge-Kutta">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,6 +50,8 @@
     "Python.Newton's Divided Difference.executor": "Run",
     "Python.Newton's Forward Interpolation.executor": "Run",
     "Python.Simpson's rule.executor": "Run",
+    "Python.The fourth order Runge-Kutta.executor": "Run",
+    "Python.The third order Runge-Kutta.executor": "Run",
     "Python.Trapezoidal_rule.executor": "Run",
     "Python.Weddle's rule.executor": "Run",
     "Python.g.executor": "Run",
@@ -228,7 +230,23 @@
       <option name="project" value="LOCAL" />
       <updated>1738863735496</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="The third order Runge-Kutta">
+      <option name="closed" value="true" />
+      <created>1738864252030</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1738864252030</updated>
+    </task>
+    <task id="LOCAL-00017" summary="The fourth order Runge-Kutta">
+      <option name="closed" value="true" />
+      <created>1738864269104</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1738864269104</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -247,6 +265,8 @@
     <MESSAGE value="4 assignment" />
     <MESSAGE value="Euler's method" />
     <MESSAGE value="Modified Euler's method" />
-    <option name="LAST_COMMIT_MESSAGE" value="Modified Euler's method" />
+    <MESSAGE value="The third order Runge-Kutta" />
+    <MESSAGE value="The fourth order Runge-Kutta" />
+    <option name="LAST_COMMIT_MESSAGE" value="The fourth order Runge-Kutta" />
   </component>
 </project>
