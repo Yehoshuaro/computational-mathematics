@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b78772d5-9ea5-4f78-843c-e2a83a7dc89b" name="Changes" comment="4 assignment">
-      <change afterPath="$PROJECT_DIR$/sixth_assignment/Euler's method.py" afterDir="false" />
+    <list default="true" id="b78772d5-9ea5-4f78-843c-e2a83a7dc89b" name="Changes" comment="Euler's method">
+      <change afterPath="$PROJECT_DIR$/sixth_assignment/Modified Euler's method.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fifth_assignment/Boole's rule.py" beforeDir="false" afterPath="$PROJECT_DIR$/fifth_assignment/Boole's rule.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,6 +46,7 @@
     "Python.Euler's method.executor": "Run",
     "Python.Jacobi_method.executor": "Run",
     "Python.Lagrange's Interpolation.executor": "Run",
+    "Python.Modified Euler's method.executor": "Run",
     "Python.Newton's Divided Difference Method.executor": "Run",
     "Python.Newton's Divided Difference.executor": "Run",
     "Python.Newton's Forward Interpolation.executor": "Run",
@@ -213,7 +213,15 @@
       <option name="project" value="LOCAL" />
       <updated>1738322233923</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="Euler's method">
+      <option name="closed" value="true" />
+      <created>1738863385585</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1738863385585</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -230,6 +238,7 @@
     <MESSAGE value="Simpson's rule / 5th assignment" />
     <MESSAGE value="Weddle's rule / 5th assignment" />
     <MESSAGE value="4 assignment" />
-    <option name="LAST_COMMIT_MESSAGE" value="4 assignment" />
+    <MESSAGE value="Euler's method" />
+    <option name="LAST_COMMIT_MESSAGE" value="Euler's method" />
   </component>
 </project>
