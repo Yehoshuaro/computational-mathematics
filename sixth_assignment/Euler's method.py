@@ -1,4 +1,4 @@
-# The code is for this task
+
 # Using Euler’s method, find an approximate
 # value of y corresponding to x = 1,
 # given that dy/dx = x + y and y = 1 when x = 0
