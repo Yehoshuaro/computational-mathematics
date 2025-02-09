@@ -4,9 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b78772d5-9ea5-4f78-843c-e2a83a7dc89b" name="Changes" comment="ewton's forward difference formula (1st and 2nd order)">
+    <list default="true" id="b78772d5-9ea5-4f78-843c-e2a83a7dc89b" name="Changes" comment="all 6th assignment">
+      <change afterPath="$PROJECT_DIR$/bonus_package/bonus.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sixth_assignment/Newton's forward difference (2nd order).py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sixth_assignment/Newton's forward difference formula (1st and 2nd order).py" beforeDir="false" afterPath="$PROJECT_DIR$/sixth_assignment/Newton's forward difference formula (1st and 2nd order).py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sixth_assignment/Newton's forward difference formula (1st and 2nd order).py" beforeDir="false" afterPath="$PROJECT_DIR$/sixth_assignment/Newton's forward difference formula (1st order).py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,35 +42,39 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Python.Boole's rule.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Euler's method.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Jacobi_method.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Lagrange's Interpolation.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Modified Euler's method.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Newton's Divided Difference Method.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Newton's Divided Difference.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Newton's Forward Interpolation.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Newton's forward difference formula (1st and 2nd order).executor&quot;: &quot;Run&quot;,
-    &quot;Python.Simpson's rule.executor&quot;: &quot;Run&quot;,
-    &quot;Python.The fourth order Runge-Kutta.executor&quot;: &quot;Run&quot;,
-    &quot;Python.The third order Runge-Kutta.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Trapezoidal_rule.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Weddle's rule.executor&quot;: &quot;Run&quot;,
-    &quot;Python.g.executor&quot;: &quot;Run&quot;,
-    &quot;Python.iterative_method.executor&quot;: &quot;Run&quot;,
-    &quot;Python.lu_factorization_method.executor&quot;: &quot;Run&quot;,
-    &quot;Python.main.executor&quot;: &quot;Run&quot;,
-    &quot;Python.power_method.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;third__to__sixth__assignment&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.editor&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Python.Analysis.executor": "Run",
+    "Python.Boole's rule.executor": "Run",
+    "Python.Euler's method.executor": "Run",
+    "Python.Jacobi_method.executor": "Run",
+    "Python.Lagrange's Interpolation.executor": "Run",
+    "Python.Modified Euler's method.executor": "Run",
+    "Python.Newton's Divided Difference Method.executor": "Run",
+    "Python.Newton's Divided Difference.executor": "Run",
+    "Python.Newton's Forward Interpolation.executor": "Run",
+    "Python.Newton's forward difference (2nd order).executor": "Run",
+    "Python.Newton's forward difference formula (1st and 2nd order).executor": "Run",
+    "Python.Simpson's rule.executor": "Run",
+    "Python.The fourth order Runge-Kutta.executor": "Run",
+    "Python.The third order Runge-Kutta.executor": "Run",
+    "Python.Trapezoidal_rule.executor": "Run",
+    "Python.Weddle's rule.executor": "Run",
+    "Python.bonus.executor": "Run",
+    "Python.g.executor": "Run",
+    "Python.iterative_method.executor": "Run",
+    "Python.lu_factorization_method.executor": "Run",
+    "Python.main.executor": "Run",
+    "Python.power_method.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "third__to__sixth__assignment",
+    "settings.editor.selected.configurable": "preferences.editor"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Asus\PycharmProjects\computational_mathematics\bonus_package" />
       <recent name="C:\Users\Asus\PycharmProjects\computational_mathematics\third_assignment" />
     </key>
   </component>
@@ -256,7 +262,23 @@
       <option name="project" value="LOCAL" />
       <updated>1738866404548</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="all 6th assignment">
+      <option name="closed" value="true" />
+      <created>1738927146258</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1738927146258</updated>
+    </task>
+    <task id="LOCAL-00020" summary="all 6th assignment">
+      <option name="closed" value="true" />
+      <created>1738927842660</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1738927842660</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -278,6 +300,7 @@
     <MESSAGE value="The third order Runge-Kutta" />
     <MESSAGE value="The fourth order Runge-Kutta" />
     <MESSAGE value="ewton's forward difference formula (1st and 2nd order)" />
-    <option name="LAST_COMMIT_MESSAGE" value="ewton's forward difference formula (1st and 2nd order)" />
+    <MESSAGE value="all 6th assignment" />
+    <option name="LAST_COMMIT_MESSAGE" value="all 6th assignment" />
   </component>
 </project>
